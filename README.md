@@ -56,6 +56,15 @@ Solariqa/
 ├── CONTRIBUTING.md
 └── LICENSE
 
+.
+|-- CONTRIBUTING.md
+|-- LICENSE
+|-- README.md
+|-- dev
+|   `-- env-setup.md
+`-- docs
+    `-- architecture.md
+
 ---
 
 ## 📜 License
