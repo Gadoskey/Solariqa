@@ -44,17 +44,17 @@
 ## 🧩 Project Structure
 
 Solariqa/
-  ├─ dev/ # Developer setup & env guides
-  ├─ docs/ # Architecture diagrams, specs
-  ├─ pages/ # Next.js routes
-  ├─ components/ # Shared UI components
-  ├─ lib/ # Utility functions
-  ├─ supabase/ # Edge Functions, Supabase types
-  ├─ public/ # Assets
-  ├─ .env.local # Local secrets (gitignored)
-  ├─ README.md
-  ├─ CONTRIBUTING.md
-  └─ LICENSE
+├── dev/                  # Developer setup & env guides
+├── docs/                 # Architecture diagrams, specs
+├── pages/                # Next.js routes
+├── components/           # Shared UI components
+├── lib/                  # Utility functions
+├── supabase/             # Edge Functions, Supabase types
+├── public/               # Static assets (logo, OG images)
+├── .env.local            # Local environment config (gitignored)
+├── README.md
+├── CONTRIBUTING.md
+└── LICENSE
 
 ---
 
