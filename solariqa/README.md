@@ -43,27 +43,27 @@
 
 ## 🧩 Project Structure
 
-Solariqa/
-├── dev/                  # Developer setup & env guides
-├── docs/                 # Architecture diagrams, specs
-├── pages/                # Next.js routes
-├── components/           # Shared UI components
-├── lib/                  # Utility functions
-├── supabase/             # Edge Functions, Supabase types
-├── public/               # Static assets (logo, OG images)
-├── .env.local            # Local environment config (gitignored)
+solariqa/
+├── dev/  # Developer setup & env guides
+│   └── env-setup.md
+├── docs/ # Architecture diagrams, specs
+│   └── architecture.md
+├── public/
+├── src/
+│   ├── app/
+│   ├── components/  # Shared UI components
+│   ├── lib/  # Utility functions
+│   └── styles/
+├── .env.local
+├── .eslintrc.json
+├── LICENSE
 ├── README.md
 ├── CONTRIBUTING.md
-└── LICENSE
+├── next.config.js
+├── tailwind.config.ts
+├── tsconfig.json
+└── package.json
 
-.
-|-- CONTRIBUTING.md
-|-- LICENSE
-|-- README.md
-|-- dev
-|   `-- env-setup.md
-`-- docs
-    `-- architecture.md
 
 ---
 
