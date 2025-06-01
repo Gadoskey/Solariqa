@@ -1,5 +1,5 @@
 
-import { ChevronUp, MessageSquare } from 'lucide-react';
+import { ArrowBigUp , MessageSquare } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import QuestionResponse from './QuestionResponse';
 
@@ -32,7 +32,7 @@ const QuestionCard = ({ question }: QuestionCardProps) => (
     <div className="flex gap-4">
       <div className="flex flex-col items-center">
         <button className="p-1 hover:bg-gray-100 rounded">
-          <ChevronUp className="w-5 h-5 text-gray-400" />
+          <ArrowBigUp className="w-5 h-5 text-gray-400" />
         </button>
         <span className="text-lg font-semibold text-gray-700">{question.votes}</span>
       </div>

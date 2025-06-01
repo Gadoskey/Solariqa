@@ -22,18 +22,18 @@ const Navigation = () => {
             <span className="text-2xl font-bold text-gray-900">Solariqa</span>
           </div>
 
-          <div className="hidden lg:flex items-center space-x-8">
-            <Link to="/ask" className="text-gray-700 hover:text-purple-600 transition-colors">Home</Link>
+          <div className="hidden lg:flex items-center space-x-5">
+            <Link to="/" className="text-gray-700 hover:text-purple-600 transition-colors">Home</Link>
             <Link to="/explore" className="text-gray-700 hover:text-purple-600 transition-colors">Explore</Link>
-            <Link to="/question/:id" className="text-gray-700 hover:text-purple-600 transition-colors">Tags</Link>
             <Link to="/ask" className="text-gray-700 hover:text-purple-600 transition-colors">Ask</Link>
+            <Link to="/question/:id" className="text-gray-700 hover:text-purple-600 transition-colors">Tags</Link>
           </div>
 
           <div className="hidden md:flex items-center relative">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
-            <Input 
-              placeholder="Search questions..." 
-              className="pl-10 w-64"
+            <Input
+              placeholder="Search questions..."
+              className="pl-10 w-64 border border-gray-300 focus-visible:border-purple-600 focus-visible:ring-2 focus-visible:ring-purple-600"
             />
           </div>
 
@@ -60,16 +60,16 @@ const Navigation = () => {
 
         {isMobileMenuOpen && (
           <div className="lg:hidden border-t border-gray-200 py-4 space-y-4 animate-slide-in-right">
-            <div className="relative">
+            <div className="relative focus:outline-none">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
-              <Input 
-                placeholder="Search questions..." 
-                className="pl-10"
+              <Input
+                placeholder="Search questions..."
+                className="pl-10 border border-gray-300 focus-visible:border-purple-600 focus-visible:ring-2 focus-visible:ring-purple-600"
               />
             </div>
             
             <div className="flex flex-col space-y-3">
-              <Link to="/ask" className="text-gray-700 hover:text-purple-600 transition-colors">Home</Link>
+              <Link to="/" className="text-gray-700 hover:text-purple-600 transition-colors">Home</Link>
               <Link to="/explore" className="text-gray-700 hover:text-purple-600 transition-colors">Explore</Link>
               <Link to="/question/:id" className="text-gray-700 hover:text-purple-600 transition-colors">Tags</Link>
               <Link to="/ask" className="text-gray-700 hover:text-purple-600 transition-colors">Ask</Link>

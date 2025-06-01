@@ -1,5 +1,5 @@
 
-import { ChevronUp } from 'lucide-react';
+import { ArrowBigUp } from 'lucide-react';
 
 interface Response {
   id: number;
@@ -17,7 +17,8 @@ const QuestionResponse = ({ response }: QuestionResponseProps) => (
     <div className="flex items-center justify-between mb-1">
       <span className="text-sm font-medium text-gray-700">{response.author}</span>
       <div className="flex items-center text-xs text-gray-500">
-        <ChevronUp className="w-3 h-3 mr-1" />
+        <ArrowBigUp className="w-3 h-3 mr-1" />
+
         {response.votes}
       </div>
     </div>
