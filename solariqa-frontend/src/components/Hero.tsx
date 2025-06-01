@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Solariqa: The Q&A Community for{" "}
+            Solariqa: The Q&A Community forr{" "}
             <span className="bg-gradient-to-r from-yellow-300 to-orange-300 bg-clip-text text-transparent">
               Solana Developers
             </span>{" "}
